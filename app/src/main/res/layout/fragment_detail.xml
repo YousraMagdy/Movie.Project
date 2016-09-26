@@ -1,0 +1,118 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
+        android:id="@+id/container"
+        tools:context="com.thenewboston.movies_project.DetailActivity.DetailFragment"
+
+        >
+
+        <TextView  android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/textview1"
+
+            android:textColor="#ff2a28ff"
+
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageView"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/textview1"
+            />
+        <TextView android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textview2"
+            android:textColor="#ff2d93ff"
+
+            android:textSize="20dp"
+            android:layout_below="@+id/imageView"
+            />
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:layout_toRightOf="@+id/textview2"
+            android:text="Add to my favourites"
+            android:layout_below="@+id/imageView"
+            />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview3"
+
+            android:textColor="#ff2a28ff"
+            android:textSize="20dp"
+            android:layout_below="@+id/textview2"
+            />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview4"
+
+            android:textColor="#ff2a28ff"
+            android:textSize="20dp"
+            android:layout_below="@+id/textview3"
+            />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview5"
+
+            android:textColor="#ff2a28ff"
+            android:textSize="20dp"
+            android:layout_below="@+id/textview4"
+            />
+
+
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_below="@+id/textview5"
+            android:text="Click Here"
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview6"
+
+            android:textColor="#ff2a28ff"
+            android:textSize="20dp"
+            android:layout_below="@+id/button2"
+            />
+
+
+
+        <ListView
+            android:id="@+id/listview_forecast"
+            android:layout_width="200dp"
+            android:layout_height="10000dp"
+            android:layout_below="@+id/textview6">
+        </ListView>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
+
+
+

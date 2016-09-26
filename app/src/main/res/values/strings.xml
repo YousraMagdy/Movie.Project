@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movies.Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_favourite">Favourite</string>
+
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="pref_sort_by_label">Sort By</string>
+
+
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_by_label_rates">Rates</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_by_label_popularity">Popularity</string>
+
+    <!-- Key name for temperature unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_by_key" translatable="false">sort_by</string>
+
+    <!-- Value in SharedPreferences for metric temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_by_rates" translatable="false">top_rated</string>
+
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_by_popularity" translatable="false">popular</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_trailer">TrailerActivity</string>
+    <string name="title_activity_trailers">Trailers</string>
+
+</resources>
